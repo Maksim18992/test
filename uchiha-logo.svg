@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 150 200" width="150" height="200">
+  <style>
+    .uchiha {
+      transform-origin: center;
+      animation: chakraLoop 4s ease-in-out infinite;
+    }
+
+    @keyframes chakraLoop {
+      0% {
+        opacity: 0;
+        transform: scale(0.6);
+        filter: drop-shadow(0 0 0px red);
+      }
+      20% {
+        opacity: 1;
+        transform: scale(1.1);
+        filter: drop-shadow(0 0 14px red);
+      }
+      50% {
+        opacity: 1;
+        transform: scale(1);
+        filter: drop-shadow(0 0 6px red);
+      }
+      80% {
+        opacity: 0;
+        transform: scale(0.6);
+        filter: drop-shadow(0 0 0px red);
+      }
+      100% {
+        opacity: 0;
+        transform: scale(0.6);
+        filter: drop-shadow(0 0 0px red);
+      }
+    }
+  </style>
+
+  <g class="uchiha">
+    <path d="M75 2.86C35.18 2.86 2.86 34.4 2.86 73.258c0 6.122.798 12.058 2.305 17.722C21.627 75.02 46.805 64.81 75 64.81c28.196 0 53.373 10.21 69.835 26.17 1.507-5.665 2.304-11.6 2.304-17.723 0-38.86-32.32-70.396-72.14-70.396z" fill="#e10000" stroke="#000" stroke-width="5.721" stroke-linecap="round"/>
+    <path d="M75 77.38c-27.21 0-50.97 11.576-63.75 28.784 10.612 19.53 30.34 33.595 53.656 36.784v54.19h20.188v-54.19c23.317-3.19 43.044-17.255 53.656-36.784C125.97 88.956 102.21 77.38 75 77.38z" fill="#fff" stroke="#000" stroke-width="5.721" stroke-linecap="round"/>
+  </g>
+</svg>
